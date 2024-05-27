@@ -1,8 +1,5 @@
 # 🎨 Creative Portfolio
 
-![Home Section](./public/demo.gif)
-
-This portfolio is a showcase of a frontend developer's work, featuring various sections.
 
 ## 📦 Technologies
 
@@ -128,8 +125,3 @@ const MotionBlock = ({ className, delay, children }: MotionBlockProps) => (
 
 The code defines two key parts for animations using Framer Motion. The `variants` object specifies different animation states — `hidden` starts the component off-screen with reduced visibility, while `visible` brings it into view with smooth transitions based on a specified delay and spring physics for a natural feel. The `MotionBlock` component uses these variants to animate elements when they first appear, allowing each component to fade in and move into place at different times depending on the delay set.
 
-## 📜 License
-
-This project is licensed under the MIT License. You are allowed to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this project, subject to the conditions outlined in the MIT License.
-
-For more information, please refer to the [LICENSE](./LICENSE) file.
